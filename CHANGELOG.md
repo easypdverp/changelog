@@ -1,5 +1,19 @@
 # Histórico de Atualizações
 
+## 24/07/2026
+
+### 🚀 Novidades
+
+- **Assistente com respostas em tempo real:** o chatbot agora exibe as respostas enquanto ainda está processando, tornando a conversa mais fluida e rápida. Além disso, ele passou a entender perguntas sobre **promoções**, podendo consultá-las e sugeri-las diretamente no chat.
+
+---
+
+## 22/07/2026
+
+### 🐛 Correções
+
+- **Segurança ao redefinir senha:** ao redefinir sua senha, todas as sessões abertas em outros dispositivos são encerradas automaticamente, garantindo mais segurança para a sua conta.
+
 ## 22/07/2026
 
 ### 🐛 Correções
