@@ -1,5 +1,24 @@
 # Histórico de Atualizações
 
+## 11/09/2026
+
+### 🚀 Novidades
+
+- **Emissão de NF-e e NFC-e completa:** agora é possível gerenciar todo o ciclo de vida das suas notas fiscais diretamente pela plataforma, incluindo emissão, cancelamento e inutilização.
+- **Contingência offline:** caso haja instabilidade na comunicação com a Sefaz, o sistema passa automaticamente para o modo de contingência, garantindo que suas vendas não sejam interrompidas.
+- **Nota de devolução:** emita notas de devolução de forma simples e integrada ao fluxo de vendas.
+- **Cenários tributários:** suporte a diferentes configurações tributárias, facilitando a adequação do sistema à realidade fiscal do seu negócio.
+- **Relatórios de vendas aprimorados:** novos dados fiscais integrados aos relatórios, oferecendo uma visão mais completa das suas vendas.
+
+---
+
+## 24/07/2026
+
+### 🚀 Novidades
+
+- **Assistente inteligente com respostas em tempo real:** o chatbot da plataforma agora exibe as respostas conforme elas são geradas, tornando a conversa mais fluida e natural.
+- **Assistente consulta promoções:** o assistente virtual agora consegue buscar e informar sobre as promoções cadastradas na sua loja, ajudando você a tirar dúvidas rapidamente sem sair do chat.
+
 ## 24/07/2026
 
 ### 🚀 Novidades
