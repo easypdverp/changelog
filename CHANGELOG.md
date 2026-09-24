@@ -4,6 +4,124 @@
 
 ### 🚀 Novidades
 
+**Exportações em segundo plano**
+Agora é possível exportar listas grandes sem travar a tela. A exportação roda em segundo plano e você acompanha o progresso pela central de tarefas (ícone de sino). Quando o arquivo estiver pronto, basta baixar por lá. Disponível em praticamente todas as seções: Catálogo, Produtos, Vendas, Finanças, Suprimentos, Relatórios, Preferências e muito mais.
+
+**Cenários fiscais por produto**
+Cada produto agora pode ter cenários fiscais próprios, configurados diretamente no cadastro do produto. Ao adicionar um item em uma NF-e ou NFC-e, o cenário fiscal correto é aplicado automaticamente.
+
+**Reforma Tributária (IBS/CBS e Imposto Seletivo)**
+As telas de natureza de operação e cenário fiscal ganharam abas dedicadas para IBS/CBS e Imposto Seletivo, preparando o sistema para a Reforma Tributária.
+
+**Relatório de Curva ABC de Vendas**
+Novo relatório de vendas por curva ABC, permitindo identificar quais produtos concentram a maior parte do faturamento.
+
+**Relatório de Vendas por Hora**
+Novo relatório que mostra a distribuição das vendas ao longo do dia, hora a hora.
+
+**Relatório de CMV (Custo da Mercadoria Vendida)**
+Novo relatório de CMV disponível na seção de Relatórios.
+
+**Nota de Devolução como NF-e de Saída**
+A devolução de mercadoria agora gera uma NF-e de saída com finalidade "Devolução". O fluxo foi redesenhado em etapas e, ao salvar, você é direcionado direto para a nota gerada.
+
+**Conferência de recebimento na Nota de Entrada**
+Ao receber uma nota de entrada, agora é possível fazer a conferência dos itens diretamente na tela da nota.
+
+**Abastecimento + Conferência (SUPPLY_CHECK)**
+Nova modalidade de tarefa que combina abastecimento e conferência em um único fluxo.
+
+**Acordo financeiro e repasse ao condomínio**
+Novo módulo de acordo financeiro com condomínio, com leituras de medidor, apuração mensal e repasse por ponto de venda.
+
+**Pesquisas de satisfação (CSAT) no CRM**
+Nova seção de análise de pesquisas de satisfação no CRM, com lista, modal de resultados e editor dedicado.
+
+**Suporte a CNPJ alfanumérico**
+O sistema passou a aceitar CNPJs no novo formato alfanumérico, conforme a Instrução Normativa RFB 2.229/2024.
+
+**Busca por leitura de código de barras nas tabelas**
+Em telas compatíveis, é possível usar um leitor de código de barras para buscar registros diretamente na tabela.
+
+**Horário de pico com média diária de vendas**
+O widget de horário de pico no dashboard agora exibe a média diária de vendas faturadas por hora.
+
+**Avatar com inicial do nome**
+Usuários sem foto de perfil agora veem um avatar com a inicial do seu nome no lugar da imagem em branco.
+
+**Configurações de regime tributário da empresa**
+A tela de preferências da empresa ganhou campo para o regime tributário e a apuração do IRPJ, disponíveis tanto no cadastro inicial quanto na edição.
+
+**Suporte a EAN-8 na detecção automática de etiquetas**
+Códigos de barras EAN-8 agora são reconhecidos automaticamente.
+
+**Série da nota travada após escolha**
+A série escolhida ao criar uma NF-e ou NFC-e agora determina o número da nota e fica bloqueada durante a edição, evitando inconsistências.
+
+**Filtro por tipo de arquivo no Gerenciador de Arquivos**
+Agora é possível filtrar arquivos por tipo (imagem, vídeo, documento etc.) no gerenciador de arquivos.
+
+**Planograma ordena por quantidade em estoque**
+A lista de produtos no planograma agora abre ordenada pela maior quantidade em estoque.
+
+**Terminal com empresa e servidor SiTef**
+A tela de cadastro de terminal passou a exibir os campos de empresa e servidor SiTef, com assistente de criação redesenhado.
+
+**Filtros e busca salvos na URL**
+Filtros, página atual e termo de busca nas tabelas agora ficam salvos na URL. Ao voltar ou compartilhar o link, a tela abre exatamente com as mesmas configurações.
+
+**Gráfico de telemetria por ponto de venda individual**
+Agora é possível gerar o gráfico de telemetria para um único PDV.
+
+**Sugestão de dígito verificador de GTIN**
+Ao cadastrar um produto, o sistema sugere automaticamente o dígito verificador do código GTIN.
+
+**Localização e categoria nas picklists e planograma**
+As tabelas de picklist e planograma ganharam colunas de localização e categoria do produto.
+
+---
+
+### ✨ Melhorias
+
+- **NFC-e:** Tela de contingência, reemissão em lote e política de ações agora disponível na interface.
+- **NFC-e:** Relatório de validação na tela mostra inconsistências por item e impede autorização enquanto houver pendências.
+- **NF-e:** As telas de nota de saída e entrada seguem o mesmo padrão visual e de funcionamento da NFC-e, com abas, confirmação de mudança de natureza e abertura em nova aba.
+- **NF-e:** O número da nota não some nem pisca ao abrir as telas de saída, entrada e NFC-e.
+- **NF-e:** Menu de ações das notas segue a política definida no servidor; filtro de operações disponível nas listas.
+- **Promoções:** Novo fluxo de cadastro que começa pela escolha de um modelo, com suporte a grupos de itens e modos "a cada" ou "a partir de".
+- **Exportação:** Ao exportar apenas a página atual, somente os itens visíveis na tela são enviados.
+- **Produto:** Botão para copiar o código de barras direto da listagem de produtos.
+- **Finanças:** Ponto de venda filtrado pela comunidade do contato nas contas a pagar/receber.
+- **Finanças:** Largura da coluna Descrição limitada nas listas de contas a pagar e receber para melhor leitura.
+- **Estoque:** Ao lançar estoque, o seletor de depósito exibe o nome da loja e o número do PDV.
+- **Abastecimento:** Tabelas de separação, abastecimento e conferência sem rolagem horizontal no celular.
+- **Preferências:** Campo de alíquota exibe vazio quando não há valor cadastrado, em vez de mostrar zero.
+- **Espaço Contador:** O painel não trava mais quando uma tarefa de download não existe.
+- **Categorias:** Links clicáveis de hierarquia (breadcrumb) na lista de categorias.
+- **Listas de cadastro:** Clientes, fornecedores, funcionários, PDVs, terminais, listas de preço e comunidades agora têm linhas clicáveis para acesso rápido ao cadastro.
+- **Agente de IA:** Eventos de progresso em tempo real durante interações com o assistente.
+- **Dashboard:** Tooltip de horário de pico corrigido para usar singular quando a média é 1, e sem duplicação do "h" no horário.
+
+---
+
+### 🐛 Correções
+
+- **Promoções:** Item do grupo não aparecia duplicado na linha; busca não mudava de posição ao digitar. Erros de validação aparecem somente após a primeira tentativa de salvar. Tipo "Valor fixo" agora é enviado corretamente ao servidor.
+- **NF-e / NFC-e:** Diversas correções de alinhamento e consistência visual nas telas de nota de saída, entrada e NFC-e.
+- **NFC-e:** Possibilidade de remover notas com status "negada", conforme permitido pelo servidor.
+- **Exportação:** Caminho das categorias alinhado entre a tela e o arquivo exportado. Mensagens de erro do servidor exibidas de forma legível no modal, sem nomes técnicos.
+- **Cenário fiscal:** Remoção de CFOP duplicado na aba ICMS.
+- **Espaço Contador:** Painel de download não derruba mais o dashboard quando a tarefa não existe.
+- **Discrepâncias de inventário:** Validação do campo "motivo" agora funciona corretamente.
+- **Pesquisa de busca nas tabelas:** Pequeno "piscar" durante a digitação foi eliminado.
+- **Picklist:** Contador principal desconta corretamente os itens removidos.
+- **Relatório de CMV:** Placeholders exibidos enquanto o relatório carrega.
+- **Gerenciador de arquivos:** Arquivos de vídeo e outros formatos agora exibem o tipo correto.
+
+## 22/09/2026
+
+### 🚀 Novidades
+
 - **Exportação em segundo plano:** agora você pode exportar listas grandes sem precisar aguardar na tela. A exportação roda em segundo plano e você é avisado quando o arquivo estiver pronto — basta baixar pela nova aba "Tarefas" no sino de notificações.
 - **Exportação completa pelo sistema:** todas as seções da plataforma (Catálogo, Produtos, Vendas, Suprimentos, Finanças, Relatórios, Preferências, Espaço Contador, Espaço Gestor e mais) agora exportam os dados diretamente pelo servidor, sem limitação de linhas.
 - **Cenários fiscais por produto:** é possível vincular e gerenciar cenários tributários diretamente no cadastro do produto, na aba Fiscal.
