@@ -1,5 +1,94 @@
 # Histórico de Atualizações
 
+## 29/09/2026
+
+### 🐛 Correções
+
+- **Separação de pedidos:** ao alterar uma quantidade e cancelar sem confirmar, o valor exibido voltava incorretamente — agora retorna ao valor original corretamente.
+
+---
+
+## 24/09/2026
+
+### 🚀 Novidades
+
+- **Permissões por atividade:** agora é possível definir o que cada usuário pode fazer de acordo com a atividade, com mais controle de acesso.
+- **Novo sino de notificações:** a central de notificações foi reformulada, com uma aba dedicada a tarefas em andamento (como exportações).
+- **Confirmação de cadastro pelo terminal:** novos cadastros realizados via terminal de ponto de venda agora passam por uma etapa de confirmação.
+
+---
+
+## 26/09/2026
+
+### 🐛 Correções
+
+- **Detalhe do produto:** a página de detalhes não travava mais quando um alerta de estoque não possuía nenhuma ação associada.
+
+---
+
+## 22/09/2026
+
+### 🚀 Novidades
+
+- **Exportação em segundo plano:** exportações maiores agora rodam em segundo plano. Você pode continuar usando o sistema normalmente e acompanhar o progresso pelo sino de notificações, baixando o arquivo quando estiver pronto. Disponível em praticamente todas as seções: Produtos, Catálogo, Parceiros, Vendas, Suprimentos, Finanças, Relatórios, Preferências e mais.
+- **Relatório de curva ABC de vendas:** novo relatório que classifica seus produtos por representatividade nas vendas (curva A, B e C).
+- **Relatório de vendas por hora:** visualize em quais horários do dia as vendas são mais concentradas, incluindo média diária no horário de pico.
+- **Relatório de Custo de Mercadoria Vendida (CMV):** novo relatório financeiro para acompanhar o custo dos produtos vendidos.
+- **Pesquisas de satisfação (CSAT):** nova área no CRM para criar, gerenciar e analisar pesquisas de satisfação com clientes, com visualização de resultados em lista e modal dedicado.
+- **Repasse a condomínio por ponto de venda:** agora é possível registrar e acompanhar repasses financeiros para condomínios separados por ponto de venda, incluindo leituras de medidor e apuração mensal.
+- **NFC-e — contingência e reemissão em lote:** novas opções para gerenciar notas em contingência e reemitir documentos em lote diretamente pela tela de NFC-e.
+- **NFC-e — relatório de validação:** antes de autorizar uma NFC-e, o sistema exibe um relatório com as inconsistências encontradas nos itens, permitindo corrigi-las sem precisar salvar.
+- **Nota de Devolução como NF-e de saída:** o processo de devolução foi reestruturado em etapas e agora gera automaticamente uma NF-e de saída com finalidade de devolução.
+- **Notas fiscais (NF-e e NFC-e) — série travada:** a série escolhida ao criar o rascunho determina o número da nota e fica bloqueada durante a edição, evitando inconsistências.
+- **Notas fiscais — filtro de operações nas listas:** agora é possível filtrar as listas de NF-e de saída e entrada por tipo de operação.
+- **Conferência de recebimento na nota de entrada:** ao receber mercadorias, é possível realizar a conferência de itens diretamente na nota de entrada.
+- **Abastecimento + Conferência:** nova tela que combina o abastecimento e a conferência do estoque em um único fluxo.
+- **Planograma:** a lista de produtos do planograma agora é ordenada pelo estoque disponível (maior quantidade primeiro).
+- **Promoções — novo motor de cadastro:** o cadastro de promoções começa pela escolha de um modelo e permite definir grupos com modos "a cada" ou "a partir de", com mais flexibilidade na configuração de regras.
+- **Cenários fiscais — suporte à Reforma Tributária:** novos campos e abas para IBS/CBS e Imposto Seletivo (IS) nos cenários fiscais e naturezas de operação, em conformidade com as novas regras tributárias.
+- **Produto — origem obrigatória:** o campo de origem do produto agora é obrigatório no cadastro e na importação.
+- **Produto — copiar código de barras:** novo botão de ação rápida para copiar o código de barras diretamente da listagem de produtos.
+- **Produto — sugestão de dígito verificador GTIN:** ao informar um código de barras, o sistema sugere automaticamente o dígito verificador correto.
+- **Suporte a CNPJ alfanumérico:** o sistema agora aceita o novo formato de CNPJ alfanumérico definido pela Receita Federal (IN RFB 2.229/2024).
+- **Terminal — novo assistente de criação:** o fluxo de criação de terminais foi redesenhado com cartões de seleção mais visuais e intuitivos.
+- **Terminal — dados de pagamento:** a tela do terminal agora exibe empresa e servidor SiTef configurados.
+- **Régime tributário na empresa:** o campo de regime tributário (e apuração do IRPJ) agora está disponível no setup e na edição da empresa.
+- **Avatar com inicial do nome:** quando o usuário não tem foto de perfil, o sistema exibe um avatar com a inicial do nome.
+- **Listas com linhas clicáveis:** as listagens de clientes, fornecedores, funcionários, pontos de venda, terminais, tabelas de preço e condomínios agora permitem clicar na linha inteira para abrir o cadastro, com links destacados nos nomes.
+- **Filtros e busca persistentes na URL:** filtros, paginação e termos de busca agora são salvos na URL, permitindo compartilhar ou recarregar a página sem perder o estado da pesquisa.
+- **Picklist — localização e categoria:** as colunas de localização e categoria agora aparecem nas listas de picklist e planograma.
+- **Dashboard — gráfico por ponto de venda:** agora é possível visualizar o gráfico de desempenho filtrando por um único ponto de venda.
+- **Leitura de código de barras nas buscas:** tabelas com suporte ativado permitem usar um leitor de código de barras diretamente no campo de busca, com indicador visual.
+- **Categorias — navegação por ancestrais:** a lista de categorias agora exibe links clicáveis para as categorias pai (hierarquia).
+- **Gerenciador de arquivos — filtro por tipo:** novo filtro para localizar arquivos por tipo (imagem, vídeo, documento, etc.).
+- **EAN-8 na detecção automática de etiquetas:** o sistema agora reconhece automaticamente códigos EAN-8 além dos formatos já suportados.
+
+### ✨ Melhorias
+
+- **Exportação — "Página atual":** a opção de exportar apenas a página atual agora envia exatamente os itens visíveis na tela.
+- **Lançar estoque — seletor de depósito:** o campo de seleção de depósito agora exibe o nome da loja e o número do PDV, facilitando a identificação.
+- **Contas a pagar/receber — coluna Descrição:** a largura da coluna foi limitada para melhorar a leitura da listagem.
+- **Contas a pagar/receber — filtro por comunidade:** o ponto de venda é automaticamente filtrado pela comunidade do contato selecionado.
+- **NFC-e — dados fiscais por item:** ao editar ou visualizar uma NFC-e, os dados fiscais de cada item são exibidos individualmente e podem ser revalidados sem salvar a nota.
+- **NF-e — número estável:** o número da nota não some nem pisca ao abrir as telas de saída, entrada ou NFC-e.
+- **Notas fiscais — layout unificado:** as telas de NF-e de saída, entrada e NFC-e foram alinhadas visualmente para maior consistência.
+- **Promoções — tipo "Valor fixo":** a opção "Valor fixo" agora é enviada corretamente ao sistema.
+- **Preferências fiscais — campo de alíquota:** quando não há valor definido, o campo de alíquota aparece vazio em vez de exibir zero.
+- **Separação/abastecimento/conferência — tabelas no celular:** as tabelas nessas telas não apresentam mais rolagem horizontal desnecessária em dispositivos móveis.
+- **Dashboard — horário de pico:** o tooltip do horário de pico agora exibe corretamente o singular quando a média é 1 venda, e sem duplicação do "h" no horário.
+- **Exportação — mensagens de erro amigáveis:** quando o servidor recusa uma exportação, a mensagem de erro agora é exibida de forma clara, sem nomes técnicos internos.
+- **Busca nas tabelas:** a busca agora tem um pequeno atraso inteligente para evitar carregamentos desnecessários enquanto você digita.
+- **Picklist — contador principal:** remoções de itens agora são descontadas corretamente do contador total.
+
+### 🐛 Correções
+
+- **Dashboard — painel do contador:** o painel não trava mais quando uma tarefa de download não está disponível.
+- **Promoções — lista de grupos:** a linha do grupo não repete o mesmo item e a busca não muda de posição ao interagir.
+- **NFC-e — remoção de nota negada:** agora é possível remover uma NFC-e com status "negada", conforme permitido pelo sistema.
+- **Devolução de NF-e:** ao salvar a devolução, o sistema redireciona corretamente para a NF-e de saída gerada.
+- **Cenário fiscal — aba ICMS:** duplicação de CFOP removida da aba de ICMS.
+- **Discrepâncias de quantidade:** a validação do motivo de discrepância nas quantidades passou a funcionar corretamente.
+
 ## 22/09/2026
 
 ### 🚀 Novidades
