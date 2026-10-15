@@ -4,6 +4,13 @@
 
 ### 🐛 Correções
 
+- **Separação de pedidos:** ao alterar uma quantidade sem confirmar, o valor agora volta corretamente ao total disponível, em vez de ficar com o número incompleto.
+- **Suprimentos:** a listagem de produtos por item agora exibe todas as páginas corretamente, e o inventário total do Ponto de Venda passou a considerar todos os itens, não apenas os do planograma.
+
+## 29/09/2026
+
+### 🐛 Correções
+
 - **Separação de pedidos:** ao alterar uma quantidade e cancelar sem confirmar, o valor exibido voltava incorretamente — agora retorna ao valor original corretamente.
 
 ---
