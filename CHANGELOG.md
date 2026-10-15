@@ -4,6 +4,13 @@
 
 ### 🐛 Correções
 
+- **Separação de itens:** ao alterar uma quantidade e não confirmar a ação, o valor agora volta corretamente ao total disponível, sem ficar "preso" na quantidade digitada.
+- **Suprimentos:** a listagem de produtos por item agora exibe todas as páginas corretamente, sem repetir ou cortar registros. Além disso, o inventário total do ponto de venda passou a considerar todos os produtos cadastrados, e não apenas os do planograma.
+
+## 29/09/2026
+
+### 🐛 Correções
+
 - **Separação de pedidos:** ao alterar uma quantidade sem confirmar, o valor agora volta corretamente ao total disponível, em vez de ficar com o número incompleto.
 - **Suprimentos:** a listagem de produtos por item agora exibe todas as páginas corretamente, e o inventário total do Ponto de Venda passou a considerar todos os itens, não apenas os do planograma.
 
