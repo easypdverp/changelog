@@ -4,6 +4,130 @@
 
 ### 🚀 Novidades
 
+**Multiempresa**
+- Agora é possível cadastrar e gerenciar múltiplas empresas no sistema, com configuração fiscal, emissão de notas, financeiro, compras, relatórios e dashboard separados por empresa.
+
+**Relatórios**
+- Novos relatórios disponíveis: **Resultado por PDV**, **Conversão do PDV** e **Quebra e acuracidade por PDV**.
+- **DRE** agora permite comparar múltiplos meses lado a lado, um por coluna.
+- **Vendas** com detalhamento por dia, mês, promoção e cupom, além de grade por dia da semana e horário.
+- **Contas a pagar e a receber** por parcela, com status atualizado, aging e totais.
+- **Saldo de estoque** valorizado a custo médio, com indicação de negativos e totais.
+- **Estoque:** entradas e saídas por tipo de movimento, com saldo inicial, final e totais.
+- **Perdas** por produto a custo médio, com ocorrências no período e totais.
+- **Produtos sem circulação** com estoque em mãos, valor parado, última venda e totais.
+- **NF-e de entrada** com filtro de situação, custo de aquisição e comparativo de preço por fornecedor.
+- **Notas fiscais de venda** com filtro de situação e modelo, e evolução por situação.
+- **Curva ABC** com tabela exportável e destaque para produtos sem venda.
+- **CMV** com aviso de faturamento sem custo e margem calculada apenas sobre vendas com custo informado.
+- **Fluxo de caixa** mostrando saldos reais das contas.
+- Relatório de vendas com valores bruto, desconto, líquido, custo e margem.
+- Resumo fiscal disponível no relatório de Operações de NF.
+- Notas negadas agora aparecem com o motivo de rejeição no relatório de Evolução de NF.
+- Exportação dos repasses e relatório de Recebimento por tipo de pagamento.
+- Os arquivos exportados passam a incluir o período e os filtros aplicados no cabeçalho.
+
+**Compras**
+- Nova tela de **Necessidade de Compra** em Suprimentos, que sugere o que comprar e permite gerar ordens de compra diretamente.
+- Ordens de compra podem ser exportadas em PDF ou planilha e enviadas ao fornecedor com prévia dos itens.
+- Nova situação **Excesso** na Necessidade de Compra, indicando quando o estoque já está acima do necessário.
+- Filtro para exibir apenas produtos com venda nos últimos N dias na Necessidade de Compra.
+- Agora é possível ordenar a lista de necessidade por qualquer coluna.
+
+**Estoque**
+- Lançamentos do produto passam a mostrar **saldo, horário e link para a origem** do movimento.
+- Possibilidade de consultar o **saldo em uma data de referência**.
+- **Custo é obrigatório** na entrada manual de estoque, garantindo rastreabilidade.
+- Produto pode ser criado diretamente durante o lançamento de estoque, com sugestão de custo por unidade.
+- Transferência entre depósitos sem necessidade de informar preço de custo.
+- Rastreio de lote aprimorado: o lote do abastecimento agora parte do produto no depósito de origem.
+- Campo de **múltiplo de abastecimento** disponível no planograma.
+
+**NF-e de Entrada**
+- Exportação da conferência de recebimento disponível diretamente no modal de conferência.
+- Filtros para localizar notas com **divergência na conferência** ou **pendência de lançamento de estoque**.
+
+**Notificações**
+- Central de notificações reformulada: clique na notificação abre diretamente a tela de origem.
+- Notificações urgentes e resolvidas destacadas no sino.
+- Preferência para desativar notificações específicas.
+- Resumo do dia exibido de forma legível no sino.
+- Atalho "Gerar picklist" disponível no resumo de notificações de produto/estoque.
+
+**PDV**
+- Visualização prévia do tema com fidelidade ao EasyPDV Touch e ao POS.
+
+**Financeiro**
+- Empresa agora aparece nas contas a pagar e a receber, com filtro por empresa no caixa e nos saldos.
+- Ponto de venda visível nas contas a pagar e a receber.
+- Conta financeira da parcela filtrada automaticamente pela empresa do documento.
+- Código do documento passa a exibir prefixo indicando a origem (pedido, ordem, nota etc.).
+- Data de criação e anexos disponíveis na Visão de Competência.
+
+**Assinatura e Sistema**
+- Tela de sistema exibe nome, logo, responsável e informações de cobrança do ambiente.
+- Card de identidade mostra a rede e o franqueado vinculados ao ambiente.
+- Cobrança configurável por empresa.
+
+**Empresa**
+- Contador vinculado à empresa em campo único, com cadastro e edição por modal.
+- Empresa disponível no cadastro de ponto de venda, depósito e ordem de compra.
+- Configuração fiscal separada por empresa em Preferências › Empresas.
+
+**Espaço do Contador**
+- Data do inventário disponível na geração do SPED.
+- Filtro de empresa no dashboard, com queda de resultado exibida corretamente como queda.
+
+**Repasse**
+- Tarifa de energia (kWh) aceita até seis casas decimais.
+- Ao tentar fechar um repasse com pendências, o sistema exibe o motivo ao lado do botão.
+
+**Cadastro**
+- Página pública para confirmação de cadastro realizado pelo EasyPDV Touch.
+
+---
+
+### ✨ Melhorias
+
+- Relatórios de finanças, suprimentos e vendas agora podem ser **regerados com os mesmos filtros**, com indicador de carregamento.
+- Filtros de "somente ativos" passam a funcionar corretamente em todos os seletores.
+- Filtro por **faixa de valor** disponível nos pedidos de venda e ordens de compra.
+- Caixa de busca exibida apenas nas telas que efetivamente suportam busca.
+- Conferência de estoque centralizada exclusivamente na tela de Conferências.
+- Botões de exportar e estornar movidos para o topo do modal de conferência de NF-e.
+- Relatório de ordens de compra com status reais, previsão de entrega e totais corretos.
+- Saldos de caixa e banco exibidos apenas quando uma conta está selecionada no filtro.
+- Relatório de vendas por hora com média por hora com venda e ticket médio.
+- Opção "Lançar estoque" na NF-e de entrada aparece apenas quando a nota pode entrar no estoque.
+- Visão de Competência reorganizada: competência em primeiro lugar, coluna Documento removida.
+- Histórico de preço do produto carregado automaticamente ao abrir o modal.
+- Cabeçalho da impressão do pedido utiliza os dados da empresa vinculada ao ponto de venda.
+
+---
+
+### 🐛 Correções
+
+- Preço vigente exibido corretamente no histórico de preços do produto.
+- Custo estimado na Necessidade de Compra não mostrava mais "R$ NaN" quando campos estavam vazios.
+- Custo unitário na entrada de lote calculado corretamente dividindo o preço da embalagem pelo fator de conversão.
+- Relatórios de caixa por categoria/cliente e recebimentos agora filtram os dados e exibem os totais corretamente.
+- Empresa da conta exibida corretamente quando originada de pedido, ordem, nota ou ocorrência.
+- Quantidade alterada e não confirmada na separação não voltava mais ao valor original indevidamente.
+- Número e série do fornecedor preservados corretamente na importação de NF-e.
+- Tela de NF-e exibia o valor do CSC da NFC-e em vez de indicar que está configurado — corrigido.
+- Filtro de situação das notas alinhado com as situações reais do sistema.
+- Painel de notificações agora acompanha o tema claro/escuro configurado.
+- Cor padrão secundária do PDV novo agora aparece corretamente no EasyPDV Touch.
+- Exportação de relatório sem seleção de linha agora exporta todas as páginas corretamente.
+- Curva ABC com cálculo de estoque e busca corrigidos.
+- SPED Fiscal gerado corretamente mesmo quando a série da nota está vazia.
+- Endereço sem número tratado corretamente no XML da nota fiscal.
+- Ordem de compra aberta contabilizada corretamente como "em pedido" e respeitando a empresa vinculada.
+
+## 15/10/2026
+
+### 🚀 Novidades
+
 - **Multiempresa:** agora é possível associar empresa a pontos de venda, depósitos, contas financeiras, ordens de compra, notas fiscais e relatórios. Cada empresa pode ter sua própria configuração fiscal e cobrança separada.
 - **Novos relatórios:**
   - **Resultado por PDV** — veja o desempenho financeiro de cada ponto de venda.
