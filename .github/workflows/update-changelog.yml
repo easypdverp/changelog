@@ -9,7 +9,7 @@
 #   - Automaticamente: quando os repos de front/back publicam release
 #   - Manualmente: via workflow_dispatch no GitHub (botão "Run workflow")
 # =============================================================
-name: Update Changelog
+name: 🤖👤 Docs · Atualizar changelog
 
 on:
   repository_dispatch:
