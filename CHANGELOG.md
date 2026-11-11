@@ -1,5 +1,66 @@
 # Histórico de Atualizações
 
+## 11/11/2026
+
+### 🚀 Novidades
+
+- **Extrato — Painel da adquirente:** novo painel no Extrato com o resumo do dia da operadora de cartão, incluindo informações de antecipação de recebíveis.
+- **Extrato — Conciliação completa:** agora é possível conciliar lançamentos diretamente na tela de Extrato, com suporte a conciliação parcial, múltiplos lançamentos ao mesmo tempo, sugestão automática de pares e opção de desfazer.
+- **Extrato — Ações diretas na linha:** crie lançamentos, marque como conciliado e aplique regras de conciliação diretamente a partir de cada linha do extrato.
+- **Extrato — Regras de conciliação:** configure regras automáticas para agilizar a conciliação do extrato da sua empresa.
+- **Notificações:** agora é possível abrir o detalhe de uma notificação em um pop-up diretamente pela listagem, sem sair da tela.
+- **Dashboard — Ruptura por período:** o painel de ruptura agora exibe os dados separados por dias, semanas e meses, com o horário exato disponível ao passar o mouse.
+- **Notas de entrada:** é possível ordenar as notas de entrada por status.
+
+### ✨ Melhorias
+
+- **Notificações:** a listagem de notificações agora exibe 20 itens por página, facilitando a navegação.
+- **Extrato — Divisão de depósito:** a divisão de um depósito agora é mantida corretamente ao reabri-lo logo após salvar.
+- **Caixas e Bancos:** ao conciliar uma transferência, a outra ponta também é marcada como conciliada automaticamente.
+- **Financeiro — Contas a pagar e a receber:** telas ajustadas para funcionar melhor em telas menores (até 360px).
+- **Cabeçalho e menus:** melhor adaptação do cabeçalho, menus e seção de ajuda em telas pequenas (até 360px).
+- **Listagens:** barra de ações, paginação e espaçamentos ajustados para telas de até 360px.
+- **Listas:** eliminado o efeito de "piscar" que ocorria ao carregar os dados nas tabelas.
+
+### 🐛 Correções
+
+- **Financeiro:** corrigido problema ao editar a baixa de uma conta, que agora recria o lançamento correspondente corretamente.
+- **Recebíveis:** corrigido caso em que um recebível de cartão estornado era liquidado novamente de forma incorreta.
+- **Planograma:** ao copiar itens para um PDV sem controle de estoque, as quantidades do item de origem são preservadas corretamente.
+- **Conciliação — Importação OFX:** corrigido erro que impedia o envio do arquivo quando a agência estava cadastrada com o dígito verificador junto.
+- **Financeiro — Contas:** corrigidos problemas na tela de criação e edição de contas financeiras.
+
+---
+
+## 10/11/2026
+
+### 🚀 Novidades
+
+- **Extrato — Importação OFX:** agora é possível importar o extrato bancário (arquivo OFX) diretamente por conta, sem duplicar lançamentos já importados anteriormente.
+- **Extrato — Conciliação manual:** lance transações, transferências e baixas de contas abertas diretamente a partir das linhas do extrato importado.
+
+### ✨ Melhorias
+
+- **Dashboard:** animações do painel corrigidas e mais fluidas.
+
+### 🐛 Correções
+
+- **Caixas e Bancos:** corrigido problema em que a outra ponta de uma transferência não era marcada como conciliada.
+
+---
+
+## 08/11/2026 — 09/11/2026
+
+### 🚀 Novidades
+
+- **Conciliação bancária:** grande expansão do módulo de conciliação — agora cada conta financeira pode ter uma conta bancária vinculada, e o sistema oferece conciliação automática de pares exatos, conciliação parcial e entre múltiplos lançamentos.
+- **Dashboard:** o widget de arquivos agora permite escolher a pasta exibida, e os widgets de arquivos e comunicados estão disponíveis no catálogo de widgets.
+
+### 🐛 Correções
+
+- **Financeiro:** corrigido problema em que editar uma baixa não atualizava o lançamento correspondente no extrato.
+- **Financeiro — Contas:** corrigidos problemas na tela de criação e edição de contas.
+
 ## 15/10/2026
 
 ### 🚀 Novidades
