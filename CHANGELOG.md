@@ -4,6 +4,27 @@
 
 ### 🚀 Novidades
 
+- **Extrato da adquirente:** novo painel com o resumo do dia da operadora de cartão, incluindo antecipações de recebíveis contra parcelas em aberto.
+- **Dashboard — Ruptura:** o indicador de ruptura de estoque agora é exibido em dias, semanas e meses, com o detalhe em horas disponível ao passar o cursor.
+- **Notificações:** agora é possível abrir o detalhe de uma notificação diretamente em um modal, sem sair da listagem. O sistema também registra o horário exato em que cada notificação foi lida.
+- **Notas de entrada:** a listagem pode ser ordenada por status, facilitando a localização de notas pendentes.
+- **Planograma — cópia de quantidades:** ao copiar um planograma para um PDV sem controle de estoque, as quantidades do item de origem são aproveitadas automaticamente.
+- **Relatórios — Contas a pagar/receber:** os totalizadores dos cards agora continuam visíveis ao aplicar filtros por faixa de data.
+
+### ✨ Melhorias
+
+- **Notificações:** a listagem passa a exibir 20 itens por página, tornando a navegação mais ágil.
+- **Extrato — depósito:** a divisão de um depósito é preservada corretamente ao reabri-lo logo após salvar.
+
+### 🐛 Correções
+
+- **Layout em telas pequenas (360 px):** ajustes no cabeçalho, menus, ajuda, paginação, espaçamento das listagens e nas telas de contas a pagar e a receber para funcionar corretamente em dispositivos com tela muito pequena.
+- **Listas:** eliminado o efeito de "piscada" que ocorria ao carregar os dados nas tabelas.
+
+## 11/11/2026
+
+### 🚀 Novidades
+
 - **Extrato — Painel da adquirente:** novo painel no Extrato com o resumo do dia da operadora de cartão, incluindo informações de antecipação de recebíveis.
 - **Extrato — Conciliação completa:** agora é possível conciliar lançamentos diretamente na tela de Extrato, com suporte a conciliação parcial, múltiplos lançamentos ao mesmo tempo, sugestão automática de pares e opção de desfazer.
 - **Extrato — Ações diretas na linha:** crie lançamentos, marque como conciliado e aplique regras de conciliação diretamente a partir de cada linha do extrato.
