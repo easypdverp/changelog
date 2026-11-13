@@ -1,5 +1,73 @@
 # Histórico de Atualizações
 
+## 13/11/2026
+
+### 🚀 Novidades
+
+- **Estoque no picking:** agora é possível visualizar o estoque do ponto de venda diretamente nos itens da lista de separação (picklist), facilitando a conferência antes do abastecimento.
+- **Painel do franqueado:** nova visão geral com widgets de indicadores de desempenho na dashboard, mostrando dados atualizados diretamente da operação.
+- **Classificação do franqueado:** a classificação do franqueado agora aparece no cabeçalho da dashboard e pode ser detalhada pelo badge na barra de navegação.
+- **Prévia do cupom fiscal (NFC-e):** ao emitir uma NFC-e, agora é possível visualizar uma prévia do cupom antes de finalizar, além de priorizar os produtos listados.
+- **Banner de alertas críticos:** alertas importantes da operação agora aparecem em destaque no topo do painel administrativo para que nenhuma ocorrência crítica passe despercebida.
+
+### ✨ Melhorias
+
+- **Dashboard – contas a vencer:** o painel agora exibe contas a pagar e a receber próximas do vencimento, além de exibir os nomes corretamente no faturamento bruto anual.
+- **Pessoa de contato:** a atualização da pessoa de contato em um registro agora salva corretamente no próprio cadastro.
+
+### 🐛 Correções
+
+- **Alertas de telemetria:** corrigido o comportamento que enviava alertas para PDVs desativados. Notificações críticas também são encerradas automaticamente ao desativar um ponto de venda.
+- **Dashboard:** os cards foram compactados e a barra lateral (sidebar) é preservada corretamente ao exibir alertas.
+
+---
+
+## 12/11/2026
+
+### 🚀 Novidades
+
+- **Agenda:** a tela de Agenda agora abre automaticamente no dia atual, com horários em formato compacto e intervalos entre os compromissos visíveis.
+- **Planograma:** agora é possível editar quantidades e situação dos itens em lote, inclusive no planograma ativo, direto pela tela de detalhes.
+- **Contas já pagas:** ao criar uma conta a pagar ou a receber, agora é possível marcá-la como já paga no momento do cadastro.
+- **Conciliação bancária – antecipação:** antecipações agora podem ser conciliadas contra parcelas em aberto.
+
+### ✨ Melhorias
+
+- **Preferências:** agora é possível abrir uma configuração clicando também na sua descrição nos resultados de busca, não só no título.
+- **Conta bancária Stone:** o cadastro de contas bancárias da Stone passou a aceitar os formatos de agência e conta dessa instituição, além de permitir buscar o banco pelo nome.
+
+### 🐛 Correções
+
+- **Seleção em massa:** ações em massa agora funcionam corretamente para itens selecionados em todas as páginas da listagem, não apenas na página atual.
+- **Ordem de compra:** o filtro de produtos no modal agora exibe apenas os produtos vinculados ao fornecedor selecionado.
+- **Planograma:** o sistema agora impede que o mínimo crítico seja definido com valor acima da quantidade desejada.
+- **Nota de saída:** ao remover um produto de uma nota, os campos do item são limpos corretamente.
+- **Calendário em celular:** o seletor de datas agora usa o calendário visual padrão da plataforma também em dispositivos móveis.
+- **Planograma – tabela de itens:** a tabela de itens no detalhe do planograma não apresenta mais rolagem horizontal desnecessária.
+- **Contas – fornecedor e cliente:** agora é possível cadastrar um fornecedor ou cliente sem endereço diretamente pelas telas de contas a pagar e a receber.
+- **Financeiro:** ao criar uma conta já paga, o sistema realiza a baixa corretamente e registra o pagamento no histórico.
+- **Financeiro – totais:** os cards de totais nas listagens financeiras agora somam todos os registros do filtro aplicado, não apenas da página atual.
+- **Relatórios – contas:** os cards de contas a pagar e a receber não zeram mais ao aplicar filtros por faixa de valores.
+
+---
+
+## 11/11/2026
+
+### 🚀 Novidades
+
+- **Notificações:** agora é possível abrir o conteúdo completo de uma notificação em um modal diretamente pela listagem, sem precisar sair da tela.
+- **Dashboard – ruptura:** o indicador de ruptura atual passou a exibir o tempo em dias, semanas e meses, com a precisão em horas disponível ao passar o cursor sobre o valor.
+- **Conciliação bancária – antecipação:** antecipações agora podem ser conciliadas contra parcelas em aberto.
+
+### ✨ Melhorias
+
+- **Layout responsivo:** melhorias no cabeçalho, menus, paginação e espaçamento das listagens em telas pequenas (até 360px), incluindo as telas financeiras de contas a pagar e a receber.
+- **Planograma:** corrigida a cópia de quantidades do item de origem quando o PDV não possui controle de estoque ativo.
+
+### 🐛 Correções
+
+- **Financeiro:** os cards de totais das listagens financeiras agora somam todos os registros do filtro aplicado, não apenas os da página atual.
+
 ## 11/11/2026
 
 ### 🚀 Novidades
