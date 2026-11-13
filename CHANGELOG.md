@@ -4,6 +4,77 @@
 
 ### 🚀 Novidades
 
+- **Picklist — estoque do PDV visível:** agora cada item da picklist mostra o estoque atual do ponto de venda, facilitando a decisão de quanto separar.
+- **Dashboard do franqueado:** nova visão geral com widgets dedicados ao franqueado, incluindo classificação de desempenho com detalhamento acessível direto pela barra de navegação.
+- **Contas a pagar e a receber no dashboard:** o dashboard agora exibe as contas que vencem no período selecionado, com os nomes do faturamento bruto anual.
+- **NFC-e — prévia do cupom:** ao emitir uma NFC-e, agora é possível visualizar uma prévia do cupom e priorizar a ordem dos produtos.
+- **Planograma — edição em lote:** é possível editar quantidades e ativar ou desativar produtos do planograma em lote, inclusive no planograma já ativo.
+- **Extrato bancário — conciliação completa:** envie seu arquivo OFX e concilie lançamentos diretamente na tela de Extrato, com suporte a conciliação parcial, N:M, desfazer e criação de lançamentos a partir de linhas do extrato.
+- **Gerenciador de Arquivos — reformulação completa:** o Gerenciador ganhou pastas com navegação por caminho, envio em lote com barra de progresso por arquivo, favoritos, busca com caminho completo, visualizador integrado (incluindo áudio), seção de Compartilhados e aba Biblioteca para seleção de arquivos em outras telas.
+- **Comunicados:** nova área para criar, publicar e gerenciar comunicados com editor rico (imagens, vídeos, HTML/Markdown), envio por e-mail opcional, leitura em tempo real com sino de notificações e relatório de ciência.
+- **Automações — picklist automática:** configure picklists geradas automaticamente por agendamento diretamente em Preferências › Automações, com histórico de execuções e opção de rodar na hora.
+- **Checklists:** nova seção em Suprimentos com checklists a responder, contador de pendentes no menu e widget no dashboard.
+- **Central de Suporte — chamados:** abra chamados diretamente pelo assistente ou pela lista de Chamados, com formulário por assunto, histórico em linha do tempo e acesso à Central de Suporte.
+- **Agenda — compromissos recorrentes:** crie compromissos com recorrência e visualize todas as ocorrências no calendário.
+- **Sugestão de compra:** tela redesenhada com wizard de filtros em modal, seleção de PDVs e destinos em árvore, visão de picklists a caminho e uma linha por produto × destino.
+- **Adquirentes — contratos e taxas:** gerencie contratos por empresa com linhas de taxa por bandeira, prazo e intervalo.
+- **Permissões:** novo sistema combinando papéis e ações por recurso, com controles administrativos ajustados por permissão.
+- **Telemetria — banner de alertas críticos:** alertas críticos em aberto aparecem em um banner no topo da tela, garantindo visibilidade imediata.
+- **Análise de risco de vendas:** nova funcionalidade para analisar o risco das vendas realizadas.
+- **Curva ABC — busca por produto:** agora é possível pesquisar produtos diretamente na tela da curva ABC.
+
+---
+
+### ✨ Melhorias
+
+- **Dashboard:** indicadores diários agrupados, margem bruta de hoje, widget de uso de cupons, widget de valor por meio de pagamento, gráfico de ruptura com visualização em dias/semanas/meses, animações nos valores financeiros e nos gráficos, e indicador de inadimplência com barra contínua.
+- **Picking:** estoque do PDV exibido em cada item da lista de separação.
+- **Agenda:** abre diretamente no dia atual com horários compactos; compromissos de dia inteiro viram botões clicáveis na visão diária.
+- **Planograma:** impede cadastro de mínimo crítico acima da quantidade desejada.
+- **Contas a pagar/receber:** agora é possível criar uma conta já marcada como paga; cadastro de fornecedor ou cliente sem endereço direto pelo financeiro.
+- **Conta bancária:** suporte ao formato de agência e conta da Stone; busca de banco por nome.
+- **Caixas e Bancos:** ao marcar uma transferência como conciliada, a outra perna também é conciliada automaticamente.
+- **Ordem de compra:** produtos filtrados pelo fornecedor selecionado no modal de produto.
+- **Notificações:** ao abrir uma notificação pela lista, ela abre em modal sem sair da tela atual; opção "Marcar como lida" fica oculta em notificações já lidas.
+- **Preferências:** abre a configuração tanto pelo título quanto pela descrição encontrada na busca.
+- **Menu:** itens de Treinamentos e Chamados reposicionados acima do Gerenciador de Arquivos.
+- **Cancelamento de venda:** ao cancelar uma venda, o sistema solicita o motivo que é enviado à SEFAZ.
+- **Recebimentos:** filtro e totais por ponto de venda e adquirente; ponto de venda e adquirente visíveis na linha da listagem.
+- **Telemetria:** exibe leitor de código de barras e eventos do terminal; alertas de PDVs desativados não geram notificações desnecessárias.
+- **Identidade visual:** personalização de tema com galeria de cores, tela de login customizável e splash screen com a marca correta.
+- **Carregamento de páginas:** spinners substituídos por skeletons nas trocas de tela e listagens, tornando a navegação mais fluida.
+- **Notas de entrada:** possibilidade de ordenar por status; conferência e consulta de mercadoria disponíveis no celular.
+- **Abastecimento:** botão para marcar todos os itens como abastecidos pela web.
+- **Extrato — divisão de depósito:** a divisão de um depósito é preservada ao reabrir o registro logo após salvar.
+- **Financeiro:** totais dos cards calculados sobre o filtro completo da listagem; contas quitadas no ato do cadastro registram corretamente o pagamento no histórico.
+
+---
+
+### 🐛 Correções
+
+- **Dashboard:** contagens exibidas no singular quando necessário; layout dos cards compactado e sidebar preservada nos alertas; fuso horário dos gráficos corrigido; recargas desnecessárias ao trocar de aba eliminadas.
+- **Ações em massa:** ao selecionar "todas as páginas", a ação agora é aplicada corretamente a todos os registros.
+- **Arquivos:** envio pelo Gerenciador permanente corrigido; nome completo do arquivo exibido; explorador mantém pastas visíveis enquanto a pasta aberta carrega.
+- **Cabeçalho e listagens:** layout e menus ajustados para telas de até 360 px.
+- **Compras:** erro ao consultar destinos não derruba a página; apenas PDVs com planograma ativo são listados; paginação por grupos de fornecedor corrigida; embalagem e unidade do fornecedor respeitadas.
+- **Comunicados:** confirmação extra após leitura removida.
+- **Conferência de estoque:** modal de edição não desconta novamente a retirada já registrada; status da tarefa refletido corretamente no selo e no botão "Finalizar conferência".
+- **Cupons:** filtros de data enviam o horário local corretamente.
+- **Estoque:** formulários de movimentação validam a quantidade antes de enviar; tarefa finalizada não exibe opções de edição de itens; motivo de retirada desconhecido registrado como "Outros" sem apagar a seleção.
+- **Filtros financeiros:** categorias inativas aparecem nos filtros de categoria e adquirentes inativas nos filtros de adquirente.
+- **Nota de saída:** campos do item limpos ao remover o produto.
+- **Datas:** calendário padrão utilizado também em dispositivos móveis, sem abrir o seletor nativo do sistema.
+- **Permissões:** página não recarrega mais após erro de acesso negado (403).
+- **Picklist:** detalhes dos itens alinhados ao contrato da API; selo e ações das tarefas refletem a situação real.
+- **Planograma:** tabela de itens sem rolagem horizontal; mínimo crítico acima da quantidade desejada bloqueado.
+- **Reposição automática:** tratamento correto quando não há arquivo vinculado.
+- **Tabelas:** "piscada" das listas ao carregar dados eliminada.
+- **Telemetria:** notificação de alerta fechada automaticamente ao desativar o PDV.
+
+## 13/11/2026
+
+### 🚀 Novidades
+
 - **Estoque no picking:** agora é possível visualizar o estoque do ponto de venda diretamente nos itens da lista de separação (picklist), facilitando a conferência antes do abastecimento.
 - **Painel do franqueado:** nova visão geral com widgets de indicadores de desempenho na dashboard, mostrando dados atualizados diretamente da operação.
 - **Classificação do franqueado:** a classificação do franqueado agora aparece no cabeçalho da dashboard e pode ser detalhada pelo badge na barra de navegação.
