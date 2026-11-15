@@ -1,5 +1,34 @@
 # Histórico de Atualizações
 
+## 15/11/2026
+
+### 🚀 Novidades
+
+- **Dashboard – Painel de Operação:** novos widgets de **pedidos a caminho** e **dias de estoque (DDE)** para acompanhar em tempo real o que está chegando e por quanto tempo o estoque aguenta.
+- **Dashboard – Vendas:** agora exibe o **produto mais vendido**, um **mapa de vendas por horário** e gráficos de pizza por categoria, facilitando a análise do desempenho comercial.
+- **Financeiro – Plano de contas:** estreia do plano de contas em formato de árvore, com **busca, expansão de níveis e exportação**. Também é possível criar, editar, inativar, reativar, excluir e **mover contas** dentro da hierarquia. O código da conta agora aparece em relatórios, listagens e detalhes — e o antigo termo "Categoria financeira" foi substituído por uma linguagem mais clara.
+- **Financeiro – Seletor de conta:** em todas as telas financeiras, o seletor de conta do plano já filtra automaticamente pelo tipo da operação (receita ou despesa).
+- **Relatórios – Taxas de cartão:** novo relatório de **taxa negociada × taxa cobrada por adquirente**, ideal para identificar cobranças acima do contratado.
+- **Compras:** agora é possível configurar, nas preferências, em qual conta a pagar será lançada automaticamente a nota de entrada de compras.
+- **Franquia (redes):** a seção "Minha assinatura" passou a se chamar **"Minha franquia"**, trazendo cobranças e classificação simulada da unidade dentro da rede.
+- **Picking:** a picklist agora mostra o **estoque disponível no ponto de venda** para cada item, agilizando a separação de pedidos.
+
+### ✨ Melhorias
+
+- **NF-e/NFC-e:** as informações da nota fiscal agora são lidas diretamente pelo nome do arquivo XML, e o endereço do consumidor passou a ser opcional na emissão.
+
+### 🐛 Correções
+
+- **Dashboard:** cards e widgets não ficam mais escurecidos indevidamente ao trocar filtros; o layout dos cards foi compactado e a barra lateral se mantém visível nos alertas.
+- **Dashboard:** cards não desaparecem mais enquanto os dados carregam — o conteúdo substitui a animação de carregamento de forma suave, sem piscadas.
+- **Relatório de repasse:** o gráfico agora exibe todos os pontos disponíveis, sem corte por limite de quantidade.
+- **Vendas – NF-e do pedido:** a nota fiscal gerada a partir de um pedido sai corretamente pela empresa vinculada ao ponto de venda.
+- **Financeiro:** ao baixar uma conta sem etiquetas, o sistema não registra mais um valor inválido no lugar das etiquetas, evitando erros nos lançamentos.
+- **Financeiro:** vendas com prazo zero agora são baixadas com a taxa correta da adquirente.
+- **Terminal (PDV):** o login do terminal passa a funcionar mesmo quando o dispositivo não compartilha coordenadas de localização.
+- **Alertas de telemetria:** o alerta de terminal offline é encerrado automaticamente quando a conexão volta, e o alerta de terminal sem PDV associado também foi corrigido. Pontos de venda desativados não geram mais notificações de alerta.
+- **Condomínio:** a pessoa de contato de um condomínio é atualizada corretamente ao editar o registro.
+
 ## 13/11/2026
 
 ### 🚀 Novidades
