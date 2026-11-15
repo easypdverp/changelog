@@ -4,6 +4,35 @@
 
 ### 🚀 Novidades
 
+- **Dashboard – Operação renovado:** novos widgets de *Pedidos a caminho* e *Dias de Estoque (DDE)* aparecem diretamente no painel de Operação, facilitando o acompanhamento do fluxo em tempo real.
+- **Dashboard – Vendas mais completo:** o painel de Vendas agora exibe o produto mais vendido do período, um mapa de vendas por horário e gráficos de pizza por categoria.
+- **Plano de contas em árvore:** gerencie toda a hierarquia financeira em uma visualização em árvore com busca, opção de expandir/recolher e exportação. É possível criar, editar, inativar, reativar, excluir e até mover contas para outros níveis da estrutura.
+- **Código da conta nos relatórios financeiros:** o código do plano de contas agora aparece em relatórios, listagens e detalhes financeiros, tornando a identificação das contas mais rápida e precisa.
+- **Relatório de taxas negociadas × cobradas:** novo relatório que compara a taxa negociada com a efetivamente cobrada por cada adquirente (maquininha/operadora de pagamento).
+- **Conta a pagar gerada automaticamente nas compras:** ao registrar uma nota de entrada, a conta a pagar correspondente pode ser lançada automaticamente conforme a configuração definida nas preferências de compras.
+- **Minha franquia:** para usuários de rede, a seção "Minha assinatura" foi renomeada para **Minha franquia** e passou a exibir histórico de cobranças e classificação simulada dentro da rede.
+- **Código de ativação do ambiente:** o código de ativação do ambiente agora está disponível diretamente nas preferências do sistema.
+
+### ✨ Melhorias
+
+- **Seletor de conta financeira:** o campo de seleção de conta do plano de contas foi atualizado em todas as telas e agora filtra as opções automaticamente de acordo com o tipo da operação (receita ou despesa).
+- **Gráfico de repasse sem limite de pontos:** o gráfico de repasse financeiro agora exibe todos os pontos do período selecionado, sem corte de dados.
+- **NF-e de consumidor:** o endereço do consumidor na nota fiscal passou a ser opcional, e as informações da nota são lidas corretamente pelo nome do arquivo XML.
+- **Nota fiscal vinculada ao ponto de venda correto:** a nota gerada a partir de um pedido agora é emitida pela empresa do ponto de venda correspondente, evitando emissões incorretas.
+
+### 🐛 Correções
+
+- **Animações do painel:** corrigido o comportamento das animações de carregamento — o conteúdo agora substitui o esqueleto sem piscar ou sumir temporariamente.
+- **Dashboard – escurecimento indevido de widgets:** widgets não eram escurecidos incorretamente ao aplicar filtros em outros indicadores.
+- **Financeiro – taxa da adquirente em vendas à vista:** vendas com prazo zero agora registram corretamente a taxa da operadora de pagamento no lançamento financeiro.
+- **Financeiro – baixa de conta sem etiquetas:** ao baixar uma conta sem etiquetas (tags), o sistema não gravava mais um valor inválido no lugar — o campo fica corretamente vazio.
+- **Terminal de PDV:** corrigido o login do caixa em terminais sem informação de localização (coordenadas GPS).
+- **Alertas de terminal offline:** o alerta de terminal offline é encerrado automaticamente quando a conexão é restabelecida.
+
+## 15/11/2026
+
+### 🚀 Novidades
+
 - **Dashboard – Painel de Operação:** novos widgets de **pedidos a caminho** e **dias de estoque (DDE)** para acompanhar em tempo real o que está chegando e por quanto tempo o estoque aguenta.
 - **Dashboard – Vendas:** agora exibe o **produto mais vendido**, um **mapa de vendas por horário** e gráficos de pizza por categoria, facilitando a análise do desempenho comercial.
 - **Financeiro – Plano de contas:** estreia do plano de contas em formato de árvore, com **busca, expansão de níveis e exportação**. Também é possível criar, editar, inativar, reativar, excluir e **mover contas** dentro da hierarquia. O código da conta agora aparece em relatórios, listagens e detalhes — e o antigo termo "Categoria financeira" foi substituído por uma linguagem mais clara.
