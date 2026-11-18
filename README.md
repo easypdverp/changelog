@@ -3,14 +3,11 @@
 <!-- easypdv:repository-status:start -->
 ## Status e integrações
 
-| Categoria | Status e referências |
+| Categoria | Badges |
 | --- | --- |
 | Projeto | [![Branch main](https://img.shields.io/badge/branch-main-555555?logo=git&logoColor=white)](https://github.com/easypdverp/changelog/tree/main) [![Repositório público](https://img.shields.io/badge/GitHub-p%C3%BAblico-555555?logo=github&logoColor=white)](https://github.com/easypdverp/changelog) |
-| Qualidade e segurança | `main` · `push`<br>[![🤖👤 PR/DEV · SonarQube](https://github.com/easypdverp/changelog/actions/workflows/sonarqube.yml/badge.svg?event=push&branch=main)](https://github.com/easypdverp/changelog/actions/workflows/sonarqube.yml?query=event%3Apush%20branch%3Amain) |
-| Integrações | `main` · `repository_dispatch`<br>[![🤖👤 Docs · Atualizar changelog](https://github.com/easypdverp/changelog/actions/workflows/update-changelog.yml/badge.svg?event=repository_dispatch&branch=main)](https://github.com/easypdverp/changelog/actions/workflows/update-changelog.yml?query=event%3Arepository_dispatch%20branch%3Amain) |
-| Ambientes | Nenhum workflow de entrega por ambiente identificado nas branches consultadas. [Consultar Actions](https://github.com/easypdverp/changelog/actions). |
-
-As badges de status consultam o GitHub Actions e mostram a última execução do workflow no escopo indicado. Não representam uptime, versão implantada ou ausência de vulnerabilidades. Workflows manuais podem aparecer sem execução.
+| Qualidade e segurança | [![🤖👤 PR/DEV · SonarQube](https://github.com/easypdverp/changelog/actions/workflows/sonarqube.yml/badge.svg?event=push&branch=main)](https://github.com/easypdverp/changelog/actions/workflows/sonarqube.yml?query=event%3Apush%20branch%3Amain) |
+| Integrações | [![🤖👤 Docs · Atualizar changelog](https://github.com/easypdverp/changelog/actions/workflows/update-changelog.yml/badge.svg?event=repository_dispatch&branch=main)](https://github.com/easypdverp/changelog/actions/workflows/update-changelog.yml?query=event%3Arepository_dispatch%20branch%3Amain) |
 
 <!-- easypdv:repository-status:end -->
 
